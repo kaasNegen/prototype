@@ -1,19 +1,15 @@
-from audio.Audio import *
-from detectionfields.detectionfields import *
-from Camera import *
+from audio.audio import *
+# from detectionfields.detectionfields import *
+from camera.camera import *
 
-audio = Audio()
-camera = Camera()
+audioService = Audio()
+cameraService = Camera()
 
-audio.start()
+audioService.start()
 while(True):
-    audio.emit(500, 0.5)
-    time.sleep(2)
-    audio.stop()
-    time.sleep(2)
-    audio.start()
-    time.sleep(2)
-
-
-
-
+    time.sleep(0.1)
+    # if cameraService.data_ready:
+    #     for thing in cameraService.data_ready:
+    #         (name, pan_value) = thing
+    #         audioService.playSample(name, pan_value)
+        # cameraService.data_ready = None

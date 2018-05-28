@@ -4,6 +4,6 @@
 [submodule "audio"]
 	path = audio
 	url = https://github.com/kaasNegen/audio
-[submodule "object-detection"]
-	path = object-detection
-	url = https://github.com/kaasNegen/object-detection
+[submodule "camera"]
+	path = camera
+	url = git@github.com:kaasNegen/camera.git
