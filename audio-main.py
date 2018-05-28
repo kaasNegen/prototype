@@ -1,5 +1,5 @@
-from Audio import *
-# from gydar import *
+from audio.Audio import *
+from detectionfields.detectionfields import *
 from Camera import *
 
 audio = Audio()
