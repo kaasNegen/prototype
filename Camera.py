@@ -14,7 +14,7 @@ class Camera:
     def __init__(self):
         self.dataReady = None
         print("Starting camera")
-        self.stream = VideoStream(src=1).start()
+        self.stream = VideoStream(src=0).start()
         time.sleep(1.0)  # Warm up camera
         self.thread = Thread(target=self.run)
         self.thread.start()

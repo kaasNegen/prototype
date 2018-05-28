@@ -1,0 +1,6 @@
+[submodule "detectionfields"]
+	path = detectionfields
+	url = https://github.com/kaasNegen/detectionfields
+[submodule "audio"]
+	path = audio
+	url = https://github.com/kaasNegen/audio
